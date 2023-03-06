@@ -166,7 +166,7 @@ const ConversationScreen = ({
     }
   };
 
-  const sendMessageOnClick: MouseEventHandler<HTMLAnchorElement> = (e) => {
+  const sendMessageOnClick: MouseEventHandler<HTMLButtonElement> = (e) => {
     e.preventDefault();
 
     if (!newMessage) return;
